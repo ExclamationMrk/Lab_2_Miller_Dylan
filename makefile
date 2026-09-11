@@ -11,6 +11,6 @@ testprog: $(OBJECTS)
 %.o: %.c
 	$(CC) $(CFLAGS) $<
 
-clean: 
+clean:
 	rm -rf *.o
-	rm -rf *.exe
+	rm -rf testprog
